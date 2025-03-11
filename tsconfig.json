@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "target": "ES6",
+    "moduleResolution": "nodeNext",
+    "esModuleInterop": true,
+    "pretty": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true
+  },
+  "include": ["src/**/**.ts", "tests/**/**.ts"],
+  "exclude": ["node_modules"]
+}
